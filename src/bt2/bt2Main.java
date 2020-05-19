@@ -16,6 +16,10 @@ public class bt2Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+          StringBuilder s = new StringBuilder.MyStringBuilder()
+               .addString("hello")
+               .myStringBuilder();
+        System.out.println(s.toString());
     }
     
 }
